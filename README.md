@@ -1,24 +1,24 @@
-# README
+# アソシエーションの練習
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 実装内容
 
-Things you may want to cover:
+- init
+- .gitignore に `.DS_Store と /vendor/bundle `を追加
+- `モデルとコントローラ`の設定
+- `各ビュー`の設定
+- `アソシエーション`の設定
+- コントローラとビューを`アソシエーション化`
+- `favoriteモデルとコントローラ`を作成
+- `favoriteルーティング`を作成
+- `アソシエーション`の設定
+- `ユーザーがツイートをお気に入りしたかどうかの判定メソッド`を追加
+- `お気に入りボタン`を実装
+- `FavoritesController`の実装
+- `ユーザーがファボしたツイートの表示`の実装
+- `UserとUserの多対多(M:N)`を設計(自己結合)
 
-* Ruby version
+## 参考文献
+- Qiita
+ - [【初心者向け】丁寧すぎるRails『アソシエーション』チュートリアル【幾ら何でも】【完璧にわかる】](https://qiita.com/kazukimatsumoto/items/14bdff681ec5ddac26d1#%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E6%A9%9F%E8%83%BD%E3%81%A8%E3%83%84%E3%82%A4%E3%83%BC%E3%83%88%E6%A9%9F%E8%83%BD%E3%82%92er%E5%9B%B3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E8%A8%AD%E8%A8%88%E3%81%97%E3%82%88%E3%81%86)
+ 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
